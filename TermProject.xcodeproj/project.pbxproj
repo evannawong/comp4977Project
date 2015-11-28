@@ -12,6 +12,15 @@
 		5731F4111BFDBD0800C4F4AE /* AnnouncementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731F4101BFDBD0800C4F4AE /* AnnouncementTableViewController.swift */; };
 		5731F4131BFEEB1200C4F4AE /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731F4121BFEEB1200C4F4AE /* Announcement.swift */; };
 		57DAAE331C006E4600DE0674 /* AnnouncementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAE321C006E4600DE0674 /* AnnouncementDetailViewController.swift */; };
+		57DAAEF21C09B64800DE0674 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF11C09B64800DE0674 /* Course.swift */; };
+		57DAAEFB1C09B66F00DE0674 /* CourseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF31C09B66F00DE0674 /* CourseController.swift */; };
+		57DAAEFC1C09B66F00DE0674 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF41C09B66F00DE0674 /* Entry.swift */; };
+		57DAAEFD1C09B66F00DE0674 /* ForumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF51C09B66F00DE0674 /* ForumController.swift */; };
+		57DAAEFE1C09B66F00DE0674 /* ForumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF61C09B66F00DE0674 /* ForumTableViewCell.swift */; };
+		57DAAEFF1C09B66F00DE0674 /* ForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF71C09B66F00DE0674 /* ForumViewController.swift */; };
+		57DAAF001C09B66F00DE0674 /* QuestionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF81C09B66F00DE0674 /* QuestionDetailViewController.swift */; };
+		57DAAF011C09B66F00DE0674 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEF91C09B66F00DE0674 /* QuestionTableViewCell.swift */; };
+		57DAAF021C09B66F00DE0674 /* SubmitQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DAAEFA1C09B66F00DE0674 /* SubmitQuestionViewController.swift */; };
 		79B0D2311BF151EA00C2D161 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D2301BF151EA00C2D161 /* AppDelegate.swift */; };
 		79B0D2331BF151EA00C2D161 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B0D2321BF151EA00C2D161 /* ViewController.swift */; };
 		79B0D2361BF151EA00C2D161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B0D2341BF151EA00C2D161 /* Main.storyboard */; };
@@ -97,6 +106,15 @@
 		5731F4101BFDBD0800C4F4AE /* AnnouncementTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewController.swift; sourceTree = "<group>"; };
 		5731F4121BFEEB1200C4F4AE /* Announcement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
 		57DAAE321C006E4600DE0674 /* AnnouncementDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementDetailViewController.swift; sourceTree = "<group>"; };
+		57DAAEF11C09B64800DE0674 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		57DAAEF31C09B66F00DE0674 /* CourseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseController.swift; sourceTree = "<group>"; };
+		57DAAEF41C09B66F00DE0674 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		57DAAEF51C09B66F00DE0674 /* ForumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumController.swift; sourceTree = "<group>"; };
+		57DAAEF61C09B66F00DE0674 /* ForumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumTableViewCell.swift; sourceTree = "<group>"; };
+		57DAAEF71C09B66F00DE0674 /* ForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumViewController.swift; sourceTree = "<group>"; };
+		57DAAEF81C09B66F00DE0674 /* QuestionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionDetailViewController.swift; sourceTree = "<group>"; };
+		57DAAEF91C09B66F00DE0674 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
+		57DAAEFA1C09B66F00DE0674 /* SubmitQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitQuestionViewController.swift; sourceTree = "<group>"; };
 		799D3B041BF6786E00EC0AD0 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
 		799D3B201BF6790900EC0AD0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		79B0D22D1BF151EA00C2D161 /* TermProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TermProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +210,15 @@
 		79B0D22F1BF151EA00C2D161 /* TermProject */ = {
 			isa = PBXGroup;
 			children = (
+				57DAAEF31C09B66F00DE0674 /* CourseController.swift */,
+				57DAAEF41C09B66F00DE0674 /* Entry.swift */,
+				57DAAEF51C09B66F00DE0674 /* ForumController.swift */,
+				57DAAEF61C09B66F00DE0674 /* ForumTableViewCell.swift */,
+				57DAAEF71C09B66F00DE0674 /* ForumViewController.swift */,
+				57DAAEF81C09B66F00DE0674 /* QuestionDetailViewController.swift */,
+				57DAAEF91C09B66F00DE0674 /* QuestionTableViewCell.swift */,
+				57DAAEFA1C09B66F00DE0674 /* SubmitQuestionViewController.swift */,
+				57DAAEF11C09B64800DE0674 /* Course.swift */,
 				79B0D2301BF151EA00C2D161 /* AppDelegate.swift */,
 				79B0D2321BF151EA00C2D161 /* ViewController.swift */,
 				79B0D2341BF151EA00C2D161 /* Main.storyboard */,
@@ -473,12 +500,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DAAF001C09B66F00DE0674 /* QuestionDetailViewController.swift in Sources */,
+				57DAAF011C09B66F00DE0674 /* QuestionTableViewCell.swift in Sources */,
+				57DAAEF21C09B64800DE0674 /* Course.swift in Sources */,
 				7E9397D21C08E39C0076D87F /* CalendarViewController.swift in Sources */,
+				57DAAF021C09B66F00DE0674 /* SubmitQuestionViewController.swift in Sources */,
+				57DAAEFE1C09B66F00DE0674 /* ForumTableViewCell.swift in Sources */,
+				57DAAEFB1C09B66F00DE0674 /* CourseController.swift in Sources */,
 				5731F4131BFEEB1200C4F4AE /* Announcement.swift in Sources */,
 				57DAAE331C006E4600DE0674 /* AnnouncementDetailViewController.swift in Sources */,
+				57DAAEFF1C09B66F00DE0674 /* ForumViewController.swift in Sources */,
 				5731F4091BFD80C900C4F4AE /* SwiftyJSON.swift in Sources */,
+				57DAAEFC1C09B66F00DE0674 /* Entry.swift in Sources */,
 				5731F4111BFDBD0800C4F4AE /* AnnouncementTableViewController.swift in Sources */,
 				5731F40F1BFDA1DB00C4F4AE /* AnnouncementTableViewCell.swift in Sources */,
+				57DAAEFD1C09B66F00DE0674 /* ForumController.swift in Sources */,
 				79B0D2331BF151EA00C2D161 /* ViewController.swift in Sources */,
 				79B0D2311BF151EA00C2D161 /* AppDelegate.swift in Sources */,
 			);

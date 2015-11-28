@@ -2,7 +2,7 @@
 //  AnnouncementDetailViewController.swift
 //  TermProject
 //
-//  Created by Victor on 2015-11-21.
+//  Created by Evanna Wong on 2015-11-21.
 //  Copyright © 2015 Evanna Wong. All rights reserved.
 //
 //  AnnouncementDetailViewController is called when the user selects an item from the IUTableView in the Announcements page.

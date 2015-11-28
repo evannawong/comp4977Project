@@ -2,7 +2,7 @@
 //  AnnouncementTableViewCell.swift
 //  TermProject
 //
-//  Created by Victor on 2015-11-18.
+//  Created by Evanna Wong on 2015-11-18.
 //  Copyright © 2015 Evanna Wong. All rights reserved.
 //
 //  AnnouncementTableViewCell represents the custom tableview cell in the announcement tableview.

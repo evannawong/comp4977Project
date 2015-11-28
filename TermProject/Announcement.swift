@@ -2,7 +2,7 @@
 //  Announcement.swift
 //  TermProject
 //
-//  Created by Victor on 2015-11-19.
+//  Created by Evanna Wong on 2015-11-19.
 //  Copyright © 2015 Evanna Wong. All rights reserved.
 //
 //  This represents an announcement
