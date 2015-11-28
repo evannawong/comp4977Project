@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/Announcements.swift"
+            timestampString = "469606131.987248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/Announcements.swift"
+            timestampString = "469606131.987248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/Announcements.swift"
+            timestampString = "469606131.987248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/Announcements.swift"
+            timestampString = "469606131.987248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/Announcements.swift"
+            timestampString = "469606131.987248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/Announcements.swift"
+            timestampString = "469606131.987248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/AnnouncementViewController.swift"
+            timestampString = "469613670.145628"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/AnnouncementTableViewController.swift"
+            timestampString = "469812199.060599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getData()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementTableViewController.getData (TermProject.AnnouncementTableViewController)() -&gt; ()"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/untitled_folder/labs/TermProject/TermProject/AnnouncementTableViewController.swift"
+                  timestampString = "469690575.95602"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementTableViewController.(getData (TermProject.AnnouncementTableViewController) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/untitled_folder/labs/TermProject/TermProject/AnnouncementTableViewController.swift"
+                  timestampString = "469690575.956261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/AnnouncementDetailViewController.swift"
+            timestampString = "469811405.38243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AnnouncementDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.__deallocating_deinit"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469791337.687707"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.init (TermProject.AnnouncementDetailViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TermProject.AnnouncementDetailViewController"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469791337.688009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.init (TermProject.AnnouncementDetailViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TermProject.AnnouncementDetailViewController&gt;"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469791337.688425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TermProject/AnnouncementDetailViewController.swift"
+            timestampString = "470206036.079703"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "AnnouncementDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.data.getter : Swift.String"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469811169.610842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.data.setter : Swift.String"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469811169.611094"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.data.materializeForSet : Swift.String"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469811169.611293"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.init (TermProject.AnnouncementDetailViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TermProject.AnnouncementDetailViewController"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469811169.611502"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "477">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TermProject.AnnouncementDetailViewController.init (TermProject.AnnouncementDetailViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TermProject.AnnouncementDetailViewController&gt;"
+                  moduleName = "TermProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/victor/Desktop/TermProject/TermProject/AnnouncementDetailViewController.swift"
+                  timestampString = "469811169.611706"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
