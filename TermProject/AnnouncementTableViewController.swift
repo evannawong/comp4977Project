@@ -13,6 +13,7 @@ import SwiftyJSON
 class AnnouncementTableViewController: UITableViewController{
     
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet var announcementTable: UITableView!
     
     //Array of Announcement objects to hold return data from GET request
@@ -20,8 +21,9 @@ class AnnouncementTableViewController: UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        announcementTable.backgroundView = UIImageView(image: UIImage(named: "bcit01"))
-        
+        announcementTable.backgroundView = UIImageView(image: UIImage(named: "bcit02"))
+
+        self.activityIndicator.startAnimating()
         getData()
     }
     
@@ -51,6 +53,7 @@ class AnnouncementTableViewController: UITableViewController{
                             self.announcements.append(oneAnnouncement)
                            
                             self.tableView.reloadData()
+                            self.activityIndicator.stopAnimating()
                         }
                     }
                 }

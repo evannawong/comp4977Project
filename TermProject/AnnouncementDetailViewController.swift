@@ -24,6 +24,8 @@ class AnnouncementDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //self.view.backgroundColor = (UIColor(patternImage: UIImage(named: "bcit01.jpg")!))
+        
         //Set label text to data that was passed in from AnnouncementController
         self.dateLabel.text = self.data.Date
         self.messageLabel.text = self.data.Message

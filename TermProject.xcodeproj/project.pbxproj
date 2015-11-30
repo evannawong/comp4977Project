@@ -210,26 +210,15 @@
 		79B0D22F1BF151EA00C2D161 /* TermProject */ = {
 			isa = PBXGroup;
 			children = (
-				57DAAEF31C09B66F00DE0674 /* CourseController.swift */,
-				57DAAEF41C09B66F00DE0674 /* Entry.swift */,
-				57DAAEF51C09B66F00DE0674 /* ForumController.swift */,
-				57DAAEF61C09B66F00DE0674 /* ForumTableViewCell.swift */,
-				57DAAEF71C09B66F00DE0674 /* ForumViewController.swift */,
-				57DAAEF81C09B66F00DE0674 /* QuestionDetailViewController.swift */,
-				57DAAEF91C09B66F00DE0674 /* QuestionTableViewCell.swift */,
-				57DAAEFA1C09B66F00DE0674 /* SubmitQuestionViewController.swift */,
-				57DAAEF11C09B64800DE0674 /* Course.swift */,
+				F8BDAD281C0BB2440053BE49 /* Announcements */,
 				79B0D2301BF151EA00C2D161 /* AppDelegate.swift */,
-				79B0D2321BF151EA00C2D161 /* ViewController.swift */,
-				79B0D2341BF151EA00C2D161 /* Main.storyboard */,
-				5731F40E1BFDA1DB00C4F4AE /* AnnouncementTableViewCell.swift */,
 				79B0D2371BF151EA00C2D161 /* Assets.xcassets */,
-				79B0D2391BF151EA00C2D161 /* LaunchScreen.storyboard */,
+				F8BDAD291C0BB2670053BE49 /* Calendar */,
+				F8BDAD271C0B96F10053BE49 /* Forum */,
 				79B0D23C1BF151EA00C2D161 /* Info.plist */,
-				5731F4101BFDBD0800C4F4AE /* AnnouncementTableViewController.swift */,
-				5731F4121BFEEB1200C4F4AE /* Announcement.swift */,
-				57DAAE321C006E4600DE0674 /* AnnouncementDetailViewController.swift */,
-				7E9397D11C08E39C0076D87F /* CalendarViewController.swift */,
+				79B0D2391BF151EA00C2D161 /* LaunchScreen.storyboard */,
+				79B0D2341BF151EA00C2D161 /* Main.storyboard */,
+				79B0D2321BF151EA00C2D161 /* ViewController.swift */,
 			);
 			path = TermProject;
 			sourceTree = "<group>";
@@ -259,6 +248,41 @@
 				3F57AD1FF2689919B8F13F60 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8BDAD271C0B96F10053BE49 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				57DAAEF41C09B66F00DE0674 /* Entry.swift */,
+				57DAAEF31C09B66F00DE0674 /* CourseController.swift */,
+				57DAAEF11C09B64800DE0674 /* Course.swift */,
+				57DAAEF51C09B66F00DE0674 /* ForumController.swift */,
+				57DAAEF61C09B66F00DE0674 /* ForumTableViewCell.swift */,
+				57DAAEF71C09B66F00DE0674 /* ForumViewController.swift */,
+				57DAAEF81C09B66F00DE0674 /* QuestionDetailViewController.swift */,
+				57DAAEF91C09B66F00DE0674 /* QuestionTableViewCell.swift */,
+				57DAAEFA1C09B66F00DE0674 /* SubmitQuestionViewController.swift */,
+			);
+			name = Forum;
+			sourceTree = "<group>";
+		};
+		F8BDAD281C0BB2440053BE49 /* Announcements */ = {
+			isa = PBXGroup;
+			children = (
+				5731F40E1BFDA1DB00C4F4AE /* AnnouncementTableViewCell.swift */,
+				5731F4101BFDBD0800C4F4AE /* AnnouncementTableViewController.swift */,
+				5731F4121BFEEB1200C4F4AE /* Announcement.swift */,
+				57DAAE321C006E4600DE0674 /* AnnouncementDetailViewController.swift */,
+			);
+			name = Announcements;
+			sourceTree = "<group>";
+		};
+		F8BDAD291C0BB2670053BE49 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				7E9397D11C08E39C0076D87F /* CalendarViewController.swift */,
+			);
+			name = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +355,7 @@
 				TargetAttributes = {
 					79B0D22C1BF151EA00C2D161 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = Y5NNGM922N;
 					};
 					79B0D2401BF151EB00C2D161 = {
 						CreatedOnToolsVersion = 7.0;
@@ -659,10 +684,13 @@
 			baseConfigurationReference = 4E64EDA95E8A8EA3D915C6BD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TermProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.comp4977.a00807066.TermProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -671,10 +699,13 @@
 			baseConfigurationReference = 3F57AD1FF2689919B8F13F60 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TermProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.bcit.comp4977.a00807066.TermProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -18,6 +18,8 @@ class CalendarViewController: UIViewController {
     @IBOutlet weak var eventLocation: UITextField!
     @IBOutlet weak var hourLabel: UILabel!
     @IBOutlet weak var eventView: UITextView!
+    @IBOutlet weak var saveButton: UIButton!
+    @IBOutlet weak var stepper: UIStepper!
     
     @IBAction func hourStepper(sender: UIStepper) {
         self.hourLabel.text = sender.value.description
@@ -53,7 +55,7 @@ class CalendarViewController: UIViewController {
         
         Alamofire.request(.POST, "https://api.mongolab.com/api/1/databases/firstmongo/collections/iosProject?apiKey=JosaVGrEGYbVAdO3q-WTOK6_mNvPOXoX", parameters: event, encoding: .JSON).responseJSON { response in
             if response.result.isSuccess {
-                    //print(responseresult)
+                //print(responseresult)
                 self.eventView.text = "Event Saved"
             }
             else {
@@ -62,7 +64,7 @@ class CalendarViewController: UIViewController {
         }
         
     }
-
+    
     
     @IBAction func timeChanged(sender: UIDatePicker) {
         let time = datePicker.date
@@ -93,8 +95,17 @@ class CalendarViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        calendarView.backgroundColor = UIColor(patternImage: UIImage(named: "bcit01.jpg")!)
         // Do any additional setup after loading the view, typically from a nib.
+        self.datePicker.backgroundColor = UIColor(white: 1, alpha: 0.9)
+        self.eventTitle.backgroundColor = UIColor(white: 1, alpha: 0.9)
+        self.eventLocation.backgroundColor = UIColor(white: 1, alpha: 0.9)
+        self.eventView.backgroundColor = UIColor(white: 1, alpha: 0.9)
+        
+        self.eventView.layer.borderWidth = 0.5
+        self.eventView.layer.borderColor = UIColor.lightGrayColor().CGColor
+        self.eventView.layer.cornerRadius = 8
+        self.stepper.layer.cornerRadius = 8
+        self.saveButton.layer.cornerRadius = 8
     }
     
     override func didReceiveMemoryWarning() {

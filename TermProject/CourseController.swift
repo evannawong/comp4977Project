@@ -15,6 +15,7 @@ class CourseController: UITableViewController
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //self.view.backgroundColor = (UIColor(patternImage: UIImage(named: "bcit01.jpg")!))
     }
     
     override func didReceiveMemoryWarning() {

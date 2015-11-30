@@ -13,10 +13,16 @@ import SwiftyJSON
 
 class ForumViewController: UITableViewController
 {
+    @IBOutlet var courseTableview: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     var courses = [Course]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        courseTableview.backgroundView = UIImageView(image: UIImage(named: "bcit02"))
+        
+        self.activityIndicator.startAnimating()
         getMongoData()
     }
     
@@ -37,6 +43,7 @@ class ForumViewController: UITableViewController
                                 
                                 self.courses.append(oneCourse)
                                 self.tableView.reloadData()
+                                self.activityIndicator.stopAnimating()
                             }
                         }
                     }
@@ -62,6 +69,14 @@ class ForumViewController: UITableViewController
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as! ForumTableViewCell
         
         let course = self.courses[indexPath.row]
+        
+        //Set selected background colour of tableview cells
+        let bgColorView = UIView()
+        bgColorView.backgroundColor = UIColor(red: 225/255, green: 225/255, blue: 102/255, alpha: 0.8)
+        cell.selectedBackgroundView = bgColorView
+        
+        //Set background colour of tableview cells
+        cell.backgroundColor = UIColor(red: 225/255, green: 225/255, blue: 225/255, alpha: 0.8)
         
         cell.courseLabel.text = course.Course
         

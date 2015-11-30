@@ -17,14 +17,25 @@ class ForumController: UITableViewController
     var course: String = ""
     var responsesArr = [String]()
     
+    @IBOutlet var questionTableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var questionLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        getMongoData()
+        //getMongoData()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        questionTableView.backgroundView = UIImageView(image: UIImage(named: "bcit02"))
+        self.activityIndicator.startAnimating()
+        self.getMongoData()
+ 
     }
     
     func getMongoData() {
+        self.entries = []
         course = data.Course
 
         let path = "https://api.mongolab.com/api/1/databases/4977db/collections/" + course + "?apiKey=S5fvstSiHqBeeiQQsvFsvj3AQ2Rw97OL"
@@ -42,7 +53,12 @@ class ForumController: UITableViewController
                             )
                             
                             self.entries.append(oneEntry)
-                            self.tableView.reloadData()
+                            dispatch_async(dispatch_get_main_queue()){
+                                self.tableView.reloadData()
+
+                            }
+                            
+                            self.activityIndicator.stopAnimating()
                         }
                     }
                 }
@@ -73,6 +89,14 @@ class ForumController: UITableViewController
         
         let entry = self.entries[indexPath.row]
         
+        //Set selected background colour of tableview cells
+        let bgColorView = UIView()
+        bgColorView.backgroundColor = UIColor(red: 225/255, green: 225/255, blue: 102/255, alpha: 0.8)
+        cell.selectedBackgroundView = bgColorView
+        
+        //Set background colour of tableview cells
+        cell.backgroundColor = UIColor(red: 225/255, green: 225/255, blue: 225/255, alpha: 0.8)
+        
         cell.questionLabel.text = entry.Question
         
         return cell
@@ -88,6 +112,9 @@ class ForumController: UITableViewController
             let row = myIndexPath.row
             
             questionDetailsViewController.data = self.entries[row]
+            questionDetailsViewController.quest = self.entries[row].Question
+            questionDetailsViewController.course = data.Course
+            
         } else if(segue.identifier == "submitQuestion") {
             
             let submitQuestionViewController = segue.destinationViewController as! SubmitQuestionViewController

@@ -15,10 +15,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var studentNoText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var errorLabel: UILabel!
+    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.loginButton.layer.cornerRadius = 8
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //User Authentication
     func verifyUser() {
         let studentNo:String = studentNoText.text!
         let password:String = passwordText.text!
@@ -54,8 +56,11 @@ class ViewController: UIViewController {
 
     @IBAction func login(sender: AnyObject) {
         verifyUser()
-        
-
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
 }
 
